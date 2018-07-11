@@ -1,0 +1,88 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Jim Ownby",
+    "classifications": [ "Web", "SPA", "Angular" ],
+    "name": "SOLTech New Web Angular Template",
+    "identity": "SOLTech.AngularNew",
+    "shortName": "soltech_ng",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "R2oDev.AngularNew",
+    "preferNameDirectory": true,
+    "symbols":{
+        "pwa":{
+          "type": "parameter",
+          "dataType":"bool",
+          "defaultValue": "false"
+        }
+    },
+    "sources": [
+        {
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json",
+                "**/node_modules/**",
+                "**/wwwroot/ngsw-config.json",
+                "**/wwwroot/src/manifest.json"
+            ],
+          "modifiers": [
+            {
+              "condition": "(pwa)",
+              "include": [
+                "**/wwwroot/ngsw-config.json",
+                "**/wwwroot/src/manifest.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "SpecialCustomOperations": {
+        "**/*.json": {
+          "flagPrefix": "//",
+          "operations": [
+            {
+              "type": "conditional",
+              "configuration": {
+                "if": [ "//#if" ],
+                "else": [ "//#else" ],
+                "elseif": [ "//#elseif" ],
+                "endif": [ "//#endif" ],
+                "actionableIf": [ "////#if" ],
+                "actionableElse": [ "////#else" ],
+                "actionableElseif": [ "////#elseif" ],
+                "actions": [ "cStyleUncomment", "cStyleReduceComment" ],
+                "trim": true,
+                "wholeLine": false,
+                "evaluator": "C++"
+                }
+            }
+          ]
+        },
+        "**/*.ts": {
+          "flagPrefix": "//",
+          "operations": [
+            {
+              "type": "conditional",
+              "configuration": {
+                "if": [ "//#if" ],
+                "else": [ "//#else" ],
+                "elseif": [ "//#elseif" ],
+                "endif": [ "//#endif" ],
+                "actionableIf": [ "////#if" ],
+                "actionableElse": [ "////#else" ],
+                "actionableElseif": [ "////#elseif" ],
+                "actions": [ "cStyleUncomment", "cStyleReduceComment" ],
+                "trim": true,
+                "wholeLine": true,
+                "evaluator": "C++"
+                }
+            }
+          ]
+        }
+      }
+}
