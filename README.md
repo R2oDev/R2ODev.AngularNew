@@ -4,7 +4,7 @@ This is an update to the built-in `dotnet` CLI template for Angular which accomp
 
 - Updated Angular template to 6.x
 - Provides the `--pwa` switch for the Angular template, which enables the PWA setup for Angular
-    - This effectively the same as running `ng add @angular/pwa` but includes the Glyphicon assets to the cache as well as sets up the dataGroup for the SampleData controller.
+    - This is effectively the same as running `ng add @angular/pwa` but includes the Glyphicon assets to the cache as well as sets up the dataGroup for the SampleData controller, which can then be customized.
 
 
 ## Install the Templates
