@@ -37,4 +37,5 @@ To uninstall the template, run the following:
 - Package Manager switch (NPM, Yarn)
 - EntityFrameworkCore (EFCore): DB Init, Migration, Seed
 - IdentityFrameworkCore (IdentityCore): Native or UI Library scaffolding
+- Swagger switch
 
