@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>R2ODev.Templates</id>
+    <version>1.0.0</version>
+    <description>DotNet CLI Templates</description>
+    <authors>Jim Ownby (R2oDev.com)</authors>
+    <owners>r2odevllc</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://github.com/r2odevllc/R2oDev.Templates</projectUrl>
+    <iconUrl>http://github.com/r2odevllc/R2oDev.Templates/nuget_icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>web http spa console</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
