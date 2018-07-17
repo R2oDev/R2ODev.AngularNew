@@ -1,8 +1,8 @@
-# R2ODev.AngularNew
+# R2ODev.Templates
 
-This is an update to the built-in `dotnet` CLI template for Angular which accomplishes the following
+This is an update to the built-in `dotnet` CLI templates which accomplishes the following:
 
-- Updated Angular template to 6.x
+- Updated Angular template to 6.x (coreNg)
 - Provides the `--pwa` switch for the Angular template, which enables the PWA setup for Angular
     - This is effectively the same as running `ng add @angular/pwa` but includes the Glyphicon assets to the cache as well as sets up the dataGroup for the SampleData controller, which can then be customized.
 
@@ -24,6 +24,7 @@ Now you can initiate a new Angular project by running:
 `dotnet new coreNg --name|-n [newProject]`
 
 This will create a new project, based on the Angular template, in a folder based on the `--name` parameter. Additionally, with this template, you can omit the `--name` parameter and the project will be created in the folder of command line path and the project name will mirror the folder name.
+
 
 ## Uninstall Templates
 
