@@ -7,8 +7,8 @@
     <authors>Jim Ownby (R2oDev.com)</authors>
     <owners>r2odevllc</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>http://github.com/r2odevllc/R2oDev.Templates</projectUrl>
-    <iconUrl>http://github.com/r2odevllc/R2oDev.Templates/nuget_icon.jpg</iconUrl>
+    <projectUrl>https://github.com/R2oDev/R2ODev.Templates</projectUrl>
+    <iconUrl>https://github.com/R2oDev/R2ODev.Templates/nuget_icon.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>web http spa console</tags>
     <packageTypes>
