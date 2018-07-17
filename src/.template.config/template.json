@@ -2,9 +2,9 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Jim Ownby",
     "classifications": [ "Web", "SPA", "Angular" ],
-    "name": "SOLTech New Web Angular Template",
-    "identity": "SOLTech.AngularNew",
-    "shortName": "soltech_ng",
+    "name": "Angular 6.x Template for AspNetCore",
+    "identity": "R2oDev.AngularNew",
+    "shortName": "coreNg",
     "tags": {
         "language": "C#"
     },
